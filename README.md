@@ -6,8 +6,6 @@ A comprehensive collection of **Supervised Machine Learning** algorithms impleme
 
 ## 📌 Repository Structure
 
-## 📌 Repository Structure
-
 ```text
 SUPERVISED/
 │
