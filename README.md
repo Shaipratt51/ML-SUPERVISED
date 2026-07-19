@@ -6,16 +6,19 @@ A comprehensive collection of **Supervised Machine Learning** algorithms impleme
 
 ## 📌 Repository Structure
 
+## 📌 Repository Structure
+
 ```text
 SUPERVISED/
 │
-├── data.csv
-├── gender_submission.csv
+├── DATASETS/
+│   ├── data.csv
+│   └── gender_submission.csv
+│
 ├── REGRESSION-ML.ipynb
 ├── gender_submission.ipynb
 └── README.md
 ```
-
 ---
 
 # 📖 Projects
@@ -23,7 +26,21 @@ SUPERVISED/
 ## 📈 Regression Analysis
 
 ### Dataset
-- **data.csv**
+# 📂 Datasets
+
+This repository contains two datasets used for implementing supervised learning algorithms.
+
+### 📊 data.csv
+**Location:** `DATASETS/data.csv`
+
+Used for implementing and evaluating various **Regression** algorithms.
+
+---
+
+### 🚢 gender_submission.csv
+**Location:** `DATASETS/gender_submission.csv`
+
+Used for implementing and evaluating **Classification** algorithms for passenger survival prediction.
 
 ### Objective
 Build and evaluate regression models to predict continuous values using various machine learning algorithms.
