@@ -1,10 +1,10 @@
 # 🚀 Supervised Machine Learning
 
-A comprehensive collection of **Supervised Machine Learning** algorithms implemented using **Python** and **Scikit-learn**. This repository demonstrates the complete machine learning pipeline—from data preprocessing to model evaluation—through practical regression and classification examples using real-world datasets.
+A comprehensive collection of **Supervised Machine Learning** algorithms implemented using **Python** and **Scikit-learn**. This repository demonstrates the complete machine learning pipeline—from data preprocessing to model evaluation—through practical **Regression** and **Classification** projects using real-world datasets.
 
 ---
 
-## 📌 Repository Structure
+# 📂 Repository Structure
 
 ```text
 SUPERVISED/
@@ -15,49 +15,36 @@ SUPERVISED/
 │
 ├── REGRESSION-ML.ipynb
 ├── gender_submission.ipynb
-└── README.md
+├── README.md
 ```
----
-
-# 📖 Projects
-
-## 📈 Regression Analysis
-
-### Dataset
-# 📂 Datasets
-
-This repository contains two datasets used for implementing supervised learning algorithms.
-
-### 📊 data.csv
-**Location:** `DATASETS/data.csv`
-
-Used for implementing and evaluating various **Regression** algorithms.
 
 ---
 
-### 🚢 gender_submission.csv
-**Location:** `DATASETS/gender_submission.csv`
+# 📖 Repository Overview
 
-Used for implementing and evaluating **Classification** algorithms for passenger survival prediction.
+This repository contains two practical machine learning projects demonstrating the core concepts of **Supervised Learning**.
+
+## 📈 Regression Project
+
+**Dataset:** `DATASETS/data.csv`
 
 ### Objective
-Build and evaluate regression models to predict continuous values using various machine learning algorithms.
+
+Build predictive regression models and compare their performance using different supervised learning algorithms.
 
 ### Workflow
 
 - Data Loading
-- Data Exploration
 - Data Cleaning
-- Handling Missing Values
-- Feature Selection
-- Label Encoding
+- Exploratory Data Analysis
+- Feature Engineering
 - Feature Scaling
 - Train-Test Split
 - Model Training
 - Prediction
-- Performance Evaluation
+- Model Evaluation
 
-### Algorithms Implemented
+### Algorithms
 
 - Linear Regression
 - Polynomial Regression
@@ -78,27 +65,26 @@ Build and evaluate regression models to predict continuous values using various 
 
 ---
 
-## 🤖 Classification Analysis
+## 🤖 Classification Project
 
-### Dataset
-- **gender_submission.csv**
+**Dataset:** `DATASETS/gender_submission.csv`
 
 ### Objective
 
-Predict passenger survival using supervised classification algorithms.
+Build classification models to predict passenger survival using supervised learning techniques.
 
 ### Workflow
 
 - Data Loading
 - Data Preprocessing
 - Feature Selection
-- Train-Test Split
 - Feature Scaling
+- Train-Test Split
 - Model Training
 - Prediction
-- Model Evaluation
+- Performance Evaluation
 
-### Algorithms Implemented
+### Algorithms
 
 - Logistic Regression
 - Decision Tree Classifier
@@ -108,7 +94,7 @@ Predict passenger survival using supervised classification algorithms.
 
 ### Evaluation Metrics
 
-- Accuracy Score
+- Accuracy
 - Precision
 - Recall
 - F1-Score
@@ -117,11 +103,20 @@ Predict passenger survival using supervised classification algorithms.
 
 ---
 
+# 📂 Datasets
+
+| Dataset | Purpose |
+|---------|---------|
+| **data.csv** | Used for Regression models |
+| **gender_submission.csv** | Used for Classification models |
+
+---
+
 # 🛠️ Technologies Used
 
 | Category | Technologies |
 |----------|--------------|
-| Language | Python |
+| Programming Language | Python |
 | Data Analysis | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn |
 | Machine Learning | Scikit-learn |
@@ -129,7 +124,7 @@ Predict passenger survival using supervised classification algorithms.
 
 ---
 
-# 🔄 Machine Learning Workflow
+# 🔄 Machine Learning Pipeline
 
 ```text
 Dataset
@@ -141,10 +136,10 @@ Data Preprocessing
 Feature Engineering
    │
    ▼
-Train-Test Split
+Feature Scaling
    │
    ▼
-Feature Scaling
+Train-Test Split
    │
    ▼
 Model Training
@@ -158,30 +153,17 @@ Model Evaluation
 
 ---
 
-# 📂 Datasets
+# ✨ Key Features
 
-## 📊 data.csv
-
-Used for implementing and comparing multiple **Regression Algorithms**.
-
-## 🚢 gender_submission.csv
-
-Used for implementing and evaluating **Classification Algorithms** for passenger survival prediction.
-
----
-
-# 🎯 Features
-
-- Data preprocessing
-- Feature engineering
-- Label encoding
-- Feature scaling
-- Train-test split
-- Multiple regression algorithms
-- Multiple classification algorithms
-- Model comparison
-- Performance evaluation
-- Data visualization
+- Data Cleaning & Preprocessing
+- Feature Engineering
+- Feature Scaling
+- Regression Algorithms
+- Classification Algorithms
+- Model Comparison
+- Performance Evaluation
+- Data Visualization
+- End-to-End Machine Learning Workflow
 
 ---
 
@@ -190,16 +172,16 @@ Used for implementing and evaluating **Classification Algorithms** for passenger
 Clone the repository
 
 ```bash
-git clone https://github.com/Shaipratt51/ML---SUPERVISED.clone
+git clone https://github.com/Shaipratt51/ML-SUPERVISED.git
 ```
 
 Navigate into the project
 
 ```bash
-cd SUPERVISED
+cd ML-SUPERVISED
 ```
 
-Install the required libraries
+Install dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
@@ -218,12 +200,12 @@ jupyter notebook
 - Supervised Learning
 - Regression
 - Classification
-- Data Cleaning
-- Data Visualization
+- Data Preprocessing
 - Feature Engineering
 - Feature Scaling
 - Model Training
 - Model Evaluation
+- Performance Metrics
 
 ---
 
@@ -234,19 +216,19 @@ jupyter notebook
 - CatBoost
 - AdaBoost
 - Gradient Boosting
-- Hyperparameter Tuning
 - Cross Validation
-- Feature Selection Techniques
-- Model Deployment using Streamlit
+- Hyperparameter Tuning
+- Feature Selection
+- Streamlit Deployment
 
 ---
 
 # 📄 License
 
-This repository is intended for **educational and learning purposes**.
+This repository is intended for educational and learning purposes.
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this repository helpful, please consider giving it a **⭐ Star** on GitHub. It motivates me to continue building and sharing machine learning projects.
+If you found this repository useful, consider giving it a **⭐ Star**. Your support helps motivate future machine learning projects and educational content.
